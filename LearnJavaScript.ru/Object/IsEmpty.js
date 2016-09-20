@@ -1,32 +1,33 @@
-//Есть объект salaries с зарплатами. Напишите код, который выведет сумму всех зарплат.
+/*Создайте функцию isEmpty(obj), которая возвращает true, если в объекте нет свойств и false – если хоть одно свойство есть.
 
-//Если объект пустой, то результат должен быть 0.
+Работать должно так:
 
-//Например:
+function isEmpty(obj) {
+  /* ваш код 
+}
 
-//"use strict";
+var schedule = {};
 
-//var salaries = {
-  //"Вася": 100,
-  //"Петя": 300,
-  //"Даша": 250
-//};
+alert( isEmpty(schedule) ); // true
 
+schedule["8:30"] = "подъём";
 
-function isEmpty(obj){
-	var counter = 0;
-	
-  for(key in obj){
-  counter++;
+alert( isEmpty(schedule) ); // false */
+
+function isEmpty(obj) {
+  var counter = 0;
+  
+  for (key in obj) {
+    counter++;
   }
   
-	(counter != 0)? alert ("false"): alert("true") ;
+  return (counter != 0)? true: false;
+  
 }
 
-var schedule={};
-var name = {
-	first: "PETYA"
-}
 
-isEmpty(schedule)
-isEmpty(name)
+var schedule = {};
+
+alert( isEmpty(schedule) ); 
+
+schedule["8:30"] = "подъём";
