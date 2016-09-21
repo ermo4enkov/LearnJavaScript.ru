@@ -6,5 +6,5 @@
 
 var goods = []
 
-goods[goods.length] = "Компьютер"
+goods[goods.length] = "Computer"
 console.log(goods)
