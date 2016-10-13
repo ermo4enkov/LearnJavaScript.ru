@@ -15,16 +15,11 @@ find(arr, 0); // -1*/
 
 arr = ["test", 2, 1.5, false];
 
-function find(arr, el){
-  
+
+function find(arr, a){
   for (var i = 0; i < arr.length; i++) {
-    
-    if (arr[i] === el) {
-      return i;
-    }
-    
+    return arr[i] = a ? i : -1 
   }
-  return -1;
 }
 
 console.log(find(arr, "test"))
