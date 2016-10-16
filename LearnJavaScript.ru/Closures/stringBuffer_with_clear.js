@@ -1,7 +1,9 @@
-/*Строковый буфер с очисткой
+// Code goes here
 
-Добавьте буферу из решения задачи Функция - строковый буфер метод buffer.clear(), который будет очищать текущее содержимое буфера:
-  
+/*Добавьте буферу из решения задачи 
+Функция - строковый буфер метод buffer.clear(), 
+который будет очищать текущее содержимое буфера:
+
 function makeBuffer() {
   ...ваш код...
 }
@@ -14,26 +16,21 @@ alert( buffer() ); // Тест тебя не съест
 
 buffer.clear();
 
-alert( buffer() ); */
+alert( buffer() ); /*/
 
 
-function makeBuffer(){
-  var result = ""
-  
-  function f(str) {
-    
+function makeBuffer() {
+  var text = ""
+  function buf(arr) {
     if (!arguments.length) {
-      return result  
+      return text
     }
-    result+= str
+    text += arr;
   }
-  
-  f.clear = function () {
-    result = ""
+  buf.clear = function () {
+    return text= ""
   }
-  
-  return f
-  
+  return buf;
 }
 
 var buffer = makeBuffer();
