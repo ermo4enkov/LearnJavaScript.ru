@@ -1,3 +1,5 @@
+// Code goes here
+
 /*Фильтрация через функцию
 
 Создайте функцию filter(arr, func), которая получает 
@@ -39,8 +41,33 @@ function filter(arr, func) {
   return result // возвращаем result
 }
 
+function inBetween (a,b) { // создаём функцию с аргументами
+  
+  return function(x) { // возвращаем функцию с аргументом x
+    return x >=a && x <= b; // в которой возвращаем выражение по которому x больше а и меньше b
+  }
+  
+}
+
+
+
+function inArray(arr){ // создаём функцию с аргументom
+  
+  return function(x) { // возвращаем функцию с аргументом x
+    return arr.indexOf(x) != - 1;  // в которой возвращаем проверку на то, что элемента x нет в массиве arr
+  }
+  
+}
+
+
+
+
+
 
 alert(filter(arr, function(a) {
   return a % 2 == 0
 }));
 
+alert( filter(arr, inBetween(3, 6)) ); // 3,4,5,6
+
+alert( filter(arr, inArray([1, 2, 10])) ); // 1,2*/
