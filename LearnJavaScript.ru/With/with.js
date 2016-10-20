@@ -13,4 +13,3 @@ with(obj) {
   alert( a + b );
 }
 
-Answer: 3
