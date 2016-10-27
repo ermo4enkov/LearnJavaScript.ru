@@ -29,4 +29,14 @@ console.log(user2.name)
 //Но если мы создадим его сами "в лоб", то у нас не получится сделать так, чтобы это св-во було неперечисляемым
 //как по умолчанию в стандартных объекта 
 
-var user3 = {}
+var user3 = {
+	name: "Igor",
+	toString: function(){
+		return this.name;
+	}
+}
+
+Object.defineProperty(user3, "toString", {enumerable: false});
+
+console.log(user3)
+
