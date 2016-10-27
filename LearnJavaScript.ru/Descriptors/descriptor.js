@@ -53,3 +53,16 @@ Object.defineProperty(user4, "fullName", {get: function(){return this.firstName 
 console.log(user4.fullName);
 
 /*Создадим объект, в котором может задать функцию задающую какие-то свойства через параметр set*/
+
+var user5 = {}
+
+Object.defineProperty(user5, "fullName", 
+														 {set: function(value){
+														 	var split = value.split(" ");
+														 	this.firstName = value.split[0];
+														 	this.secondName = value.split[1];
+}});
+
+user5.fullName = "Петя Иванов";
+console.log( user5.firstName ); // Петя
+console.log( user5.surname ); // Иванов
