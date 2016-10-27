@@ -40,3 +40,16 @@ Object.defineProperty(user3, "toString", {enumerable: false});
 
 console.log(user3)
 
+
+/*Создадим объект, в котором может задать функцию значению через параметр get*/
+
+var user4 = {
+	firstName: "Nata",
+	secondName: "Ermo"
+}
+
+Object.defineProperty(user4, "fullName", {get: function(){return this.firstName + this.secondName}});
+
+console.log(user4.fullName);
+
+/*Создадим объект, в котором может задать функцию задающую какие-то свойства через параметр set*/
