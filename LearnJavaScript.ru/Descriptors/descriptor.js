@@ -59,10 +59,10 @@ var user5 = {}
 Object.defineProperty(user5, "fullName", 
 														 {set: function(value){
 														 	var split = value.split(" ");
-														 	this.firstName = value.split[0];
-														 	this.secondName = value.split[1];
+														 	this.firstName = split[0];
+														 	this.secondName = split[1];
 }});
 
 user5.fullName = "Петя Иванов";
-console.log( user5.firstName ); // Петя
-console.log( user5.surname ); // Иванов
+console.log( user5.firstName );
+console.log( user5.secondName );
