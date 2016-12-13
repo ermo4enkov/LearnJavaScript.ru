@@ -5,15 +5,15 @@ alert( getDecimal(12.345) ); // 0.345
 alert( getDecimal(1.2) ); // 0.2
 alert( getDecimal(-1.2) ); // 0.2*/
 
-function getDecimal(n){
+function getDecimal(num){
   
-  var a = String(n);
-  var b = a.indexOf(".");
-  var c = a.slice(b)
-  var d = parseFloat(c)
-  return d;
+  var dot = String(num).indexOf(".");
+  var str = String(num);
+  str = str.slice(dot);
+  return parseFloat(str)
   
 }
+
 
 console.log(getDecimal(-12.345))
 console.log(getDecimal(1.2))
