@@ -5,16 +5,12 @@ ucFirst("") == ""; // нет ошибок при пустой строке
 P.S. В JavaScript нет встроенного метода для этого. Создайте функцию, используя toUpperCase() и charAt().*/
 
 
-function ucFirst(val){
+function ucFirst(str){
   
-  if (!val) return "Sorry, but you forgot input the val"
+  if(!str) return str;
+  return str = str.charAt(0).toUpperCase() + str.slice(1);
   
-  var b = val.slice(1)
-  var a = val.charAt(0)
-  var c = a.toUpperCase()
-  
-  return c + b
 }
 
-console.log(ucFirst("fdfdfdddd"))
-console.log(ucFirst(""))
+console.log(ucFirst("вася"));
+console.log(ucFirst(""));
