@@ -23,22 +23,44 @@
 function User(fullName) {
     this.fullName = fullName;
 
-    this.name = this.fullName.split(" ");
-    Object.defineProperty(this, "firstName", {
-        get: function (){
-            return this.name[0]
+    // this.name = this.fullName.split(" ");
+    // Object.defineProperty(this, "firstName", {
+    //     get: function (){
+    //         return this.name[0]
+    //     }
+    // });
+    // Object.defineProperty(this, "secondName", {
+    //     get: function (){
+    //         return this.name[1]
+    //     }
+    // });
+    // Object.defineProperty(this, "fullname", {
+    //     set: function () {
+    //         this.fullName = "fullName";
+    //     }
+    // });
+    Object.defineProperties(this, {
+        lastName: {
+            get: function () {
+                return this.fullName.split(" ")[1];
+            },
+
+            set: function (newlastName) {
+                return this.fullName = this.fullName + newlastName;
+            }
+        },
+
+        firstName: {
+            get: function () {
+                return this.fullName.split(" ")[0];
+            },
+
+            set: function (newfirstName) {
+                return this.fullName =  + newfirstName + this.fullName;
+            }
         }
     });
-    Object.defineProperty(this, "secondName", {
-        get: function (){
-            return this.name[1]
-        }
-    });
-    Object.defineProperty(this, "fullname", {
-        set: function () {
-            this.fullName = "fullName";
-        }
-    });
+
 }
 
 var vasya = new User("Василий Попкин");
