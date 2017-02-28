@@ -44,4 +44,16 @@ function printArgs() {
     console.log(args)
 }
 
+
 printArgs(1,2,3,4,5,"sooqa");
+
+
+// With borrow method slice from Array.prototype we can transform our arguments to array
+
+function arrayArgs() {
+
+    var args = [].slice.call(arguments);
+    console.log(args.join("~"));
+}
+
+arrayArgs(2,3,4,5, {3434: 34343})
