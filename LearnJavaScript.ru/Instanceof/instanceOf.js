@@ -9,3 +9,6 @@ let date = new Date();
 
 console.log(toString.call(date));
 
+console.log( {}.toString.call(123) ); // [object Number]
+console.log( {}.toString.call("строка")); // [object String]
+
