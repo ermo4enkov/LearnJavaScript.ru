@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7b6143-ad39-42d5-8de1-78f0cb6e52dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/task_1.js" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/task_1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/create_object_get_&amp;_set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,14 +91,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task_1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/task_1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
-              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#CoffeeMachine#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_object_get_&amp;_set.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/create_object_get_&amp;_set.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,6 +147,7 @@
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/TryCatch/example2.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/TryCatch/newError.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/task_1.js" />
+        <option value="$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/create_object_get_&amp;_set.js" />
       </list>
     </option>
   </component>
@@ -302,16 +314,16 @@
       <workItem from="1488304369093" duration="3915000" />
       <workItem from="1488725892048" duration="2035000" />
       <workItem from="1488909889692" duration="3120000" />
-      <workItem from="1489013524650" duration="549000" />
+      <workItem from="1489013524650" duration="1589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11765000" />
+    <option name="totallyTimeSpent" value="12805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12068965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -319,7 +331,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -411,6 +423,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc;n#User#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -487,6 +502,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc;n#User#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,6 +550,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#User#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,6 +644,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc;n#User#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,10 +711,18 @@
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/task_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#CoffeeMachine#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_with_function/create_object_get_&amp;_set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
