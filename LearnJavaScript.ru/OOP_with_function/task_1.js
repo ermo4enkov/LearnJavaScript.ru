@@ -11,8 +11,10 @@ function CoffeeMachine(power) {
 
     var self = this;
 
+    var timerId; //создал приватное свойство
+
     function getBoilTime() {
-        return self.waterAmount * WATER_HEAT_CAPACITY * 80 / power;
+         console.log(self.waterAmount * WATER_HEAT_CAPACITY * 80 / power);
     }
 
     function onReady() {
@@ -20,17 +22,23 @@ function CoffeeMachine(power) {
     }
 
     this.run = function() {
-        setTimeout(onReady, getBoilTime());
+        timerId = setTimeout(onReady, getBoilTime()); // в приватное свойство передал функцию setTimeout,
+        //для того, чтобы потом можно было убить при надобности
     };
+
+    this.stop = function() {
+        clearTimeout(timerId)
+    } //создал публичный метод stop, который убивает выполнение скрипта
 
 };
 
 // Вот такой код должен ничего не выводить:
-    var coffeeMachine = new CoffeeMachine(50000);
+
+var coffeeMachine = new CoffeeMachine(50000);
 coffeeMachine.waterAmount = 200;
 
 coffeeMachine.run();
-// coffeeMachine.stop(); // кофе приготовлен не будет
+coffeeMachine.stop(); // кофе приготовлен не будет
 
 // P.S. Текущую температуру воды вычислять и хранить не требуется.
 //
