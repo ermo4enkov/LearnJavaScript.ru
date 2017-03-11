@@ -40,6 +40,42 @@ var coffeGrinder = new CoffeMachine(300);
 
 coffeGrinder.switchOff(); // we inherited methods from main constructor
 coffeGrinder.setWaterAmount(4000);
-console.log(coffeGrinder.waterAmount)
+console.log(coffeGrinder.waterAmount);
 console.log(coffeGrinder.power);
 coffeGrinder.switchOn(); // we inherited methods from main constructor
+
+
+//Чтобы наследник имел доступ к свойству, оно должно быть записано в this.
+
+
+
+// Перенос свойства в защищённые
+
+function Machine2(power) {
+    this._power = power;
+
+    this._enabled = false;
+
+    this.switchOn = function () {
+        enabled = true;
+        console.log('enable')
+    };
+
+    this.switchOff = function () {
+        enabled = false;
+        console.log('disable')
+    };
+}
+
+function SecondCoffeeMachine(power) {
+
+    Machine.apply(this, arguments)
+
+    console.log( this._enabled ); // false
+    console.log( this._power ); // 10000
+
+}
+
+var coffe2 = new SecondCoffeeMachine(2000);
+
+console.log(coffe2)
