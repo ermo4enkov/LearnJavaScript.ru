@@ -69,7 +69,7 @@ function Machine2(power) {
 
 function SecondCoffeeMachine(power) {
 
-    Machine.apply(this, arguments)
+    Machine2.apply(this, arguments)
 
     console.log( this._enabled ); // false
     console.log( this._power ); // 10000
@@ -78,4 +78,4 @@ function SecondCoffeeMachine(power) {
 
 var coffe2 = new SecondCoffeeMachine(2000);
 
-console.log(coffe2)
+console.log(coffe2._power)
