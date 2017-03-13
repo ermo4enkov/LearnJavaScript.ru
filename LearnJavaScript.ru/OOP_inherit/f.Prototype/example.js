@@ -24,3 +24,21 @@ function Bull() {
 var bull = new Bull();
 
 console.log(bull.myNaMEaNDaGE());
+
+// 2. Чтобы новым объектам автоматически ставить прототип, конструктору ставится свойство prototype.
+// При создании объекта через new, в его прототип __proto__ записывается ссылка из prototype функции-конструктора.
+
+var bird = {
+    ability: "fly"
+}
+
+function Dron(name) {
+  this.name = name;
+}
+
+Dron.prototype = bird;
+
+var dron = new Dron("Larry");
+
+console.log(dron) //name - "Larry
+console.log(dron.ability) // "fly" inherit from bird
