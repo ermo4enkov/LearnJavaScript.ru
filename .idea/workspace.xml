@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7b6143-ad39-42d5-8de1-78f0cb6e52dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/Classes_On_Prototype/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/f.Prototype/task1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/Classes_On_Prototype/example.js" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/Classes_On_Prototype/example.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/Classes_On_Prototype/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+            <state relative-caret-position="309">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc;n#Animal#0" expanded="false" />
               </folding>
@@ -346,12 +345,12 @@
       <workItem from="1489255759374" duration="2361000" />
       <workItem from="1489280457211" duration="642000" />
       <workItem from="1489439206933" duration="2018000" />
-      <workItem from="1489525265679" duration="457000" />
+      <workItem from="1489525265679" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18725000" />
+    <option name="totallyTimeSpent" value="19497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -743,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/Classes_On_Prototype/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        <state relative-caret-position="309">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc;n#Animal#0" expanded="false" />
           </folding>
