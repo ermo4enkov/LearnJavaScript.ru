@@ -9,21 +9,25 @@
 function Animal(name) {
     this.name = name;
     this.speed = 0;
-}
+};
 
 Animal.prototype.run = function (speed) {
     this.speed += speed;
-}
+    console.log(speed)
+};
 
-Animal.prototype.stop = function (speed) {
+Animal.prototype.stop = function () {
     this.speed = 0;
-}
+};
 
 
 function Rabbit(name){
     this.name = name;
     this.speed = 0;
-}
+};
+
+Rabbit.prototype = Object.create(Animal.prototype);
+Rabbit.prototype.constructor = Rabbit;
 
 Rabbit.prototype.jump = function (){
     this.speed++;
@@ -36,3 +40,22 @@ rabbit.jump();
 rabbit.jump();
 rabbit.jump();
 rabbit.jump();
+
+rabbit.run(333)
+
+// Для того, чтобы наследование работало, объект rabbit = new Rabbit должен использовать свойства и методы из своего
+// прототипа Rabbit.prototype, а если их там нет, то – свойства и метода родителя, которые хранятся в Animal.prototype.
+
+// Если ещё короче – порядок поиска свойств и методов должен быть таким: rabbit -> Rabbit.prototype -> Animal.prototype,
+// по аналогии с тем, как это сделано для объектов и массивов.
+
+//Чтобы унаследовать свойства от главного "класса" нужно написать
+
+// Rabbit.prototype = Object.create(Animal.prototype);
+
+// В prototype по умолчанию всегда находится свойство constructor, указывающее на функцию-конструктор.
+// В частности, Rabbit.prototype.constructor == Rabbit. Если мы рассчитываем использовать это свойство, то при замене
+// prototype через Object.create нужно его явно сохранить:
+
+// Rabbit.prototype.constructor = Rabbit;
+
