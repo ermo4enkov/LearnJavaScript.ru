@@ -85,3 +85,27 @@ rabbit.run(333)
 //     Animal.apply(this, arguments)
 // }
 
+
+
+
+// Переопределение метода
+
+// Нам может понадобится переопределить метод здесь, которрый уже есть в родителе.
+// Ничего сложного:
+
+// Rabbit.prototype.run = function(speed){
+//      this.speed++;
+//      this.jump()
+// }
+
+
+
+// ВЫЗОВ МЕТОДА РОДИТЕЛЯ ВНУТРИ СВОЕГО
+
+// Для вызова метода родителя можно взять его и переопределить прямо внутри
+
+// Rabbit.prototype.run = function(speed) {
+//      Animal.prototype.run.apply(this,arguments);
+//      this.jump();
+// }
+//
