@@ -24,8 +24,8 @@
       <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/inheritClasses/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="379">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#Animal#0" expanded="false" />
               </folding>
@@ -312,12 +312,12 @@
       <workItem from="1489280457211" duration="642000" />
       <workItem from="1489439206933" duration="2018000" />
       <workItem from="1489525265679" duration="2403000" />
-      <workItem from="1489569741717" duration="1638000" />
+      <workItem from="1489569741717" duration="1989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22309000" />
+    <option name="totallyTimeSpent" value="22660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -715,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/OOP_inherit/inheritClasses/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="379">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#Animal#0" expanded="false" />
           </folding>

@@ -21,9 +21,13 @@ Animal.prototype.stop = function () {
 };
 
 
-function Rabbit(name){
-    this.name = name;
-    this.speed = 0;
+// function Rabbit(name){
+//     this.name = name;
+//     this.speed = 0;
+// };
+
+function Rabbit(name) {
+    Animal.apply(this, arguments);
 };
 
 Rabbit.prototype = Object.create(Animal.prototype);
@@ -58,4 +62,26 @@ rabbit.run(333)
 // prototype через Object.create нужно его явно сохранить:
 
 // Rabbit.prototype.constructor = Rabbit;
+
+
+
+// Вызов конструктора родителя
+
+// Если посмотреть внимательно, то методы у Animal и Rabbit одинаковые
+
+// function Animal(name) {
+//     this.name = name;
+//     this.speed = 0;
+// }
+//
+// function Rabbit(name) {
+//     this.name = name;
+//     this.speed = 0;
+// }
+
+// Чтобы упростить поддержку кода можно написать вот так
+
+// function Rabbit(name) {
+//     Animal.apply(this, arguments)
+// }
 
