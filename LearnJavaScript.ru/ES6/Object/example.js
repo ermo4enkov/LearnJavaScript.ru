@@ -12,7 +12,7 @@ let user = {
     name: name,
     secondName: secondName
 }
-
+//
 console.log(user);
 
 
@@ -26,3 +26,16 @@ let col = {
 }
 
 console.log(col.FirstName);
+
+// Object.assign
+// Get list of object and copy them to first object in list
+
+let user1 = { name: "Вася" };
+let visitor = { isAdmin: false, visits: true };
+let admin = { isAdmin: true };
+
+Object.assign(user1,visitor, admin);
+
+console.log(user1)
+
+
