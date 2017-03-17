@@ -14,3 +14,15 @@ let user = {
 }
 
 console.log(user);
+
+
+// Counted option. I can set straight in object
+
+let ex = "FirstName";
+
+
+let col = {
+    [ex]: 'SecondName'
+}
+
+console.log(col.FirstName);
