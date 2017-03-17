@@ -36,6 +36,15 @@ let admin = { isAdmin: true };
 
 Object.assign(user1,visitor, admin);
 
-console.log(user1)
+console.log(user1);
+
+// it can also help like first level object copy
+
+let user3 = { name: "Вася", isAdmin: false };
+
+// clone = пустой объект + все свойства user
+let clone = Object.assign({}, user3)
+
+console.log(clone)
 
 
