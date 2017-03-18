@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7b6143-ad39-42d5-8de1-78f0cb6e52dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/ES6/Classes/example.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavaScript.ru/ES6/Classes/example.js" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/ES6/Classes/example.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/ES6/Classes/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="365">
+              <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc;n#User#0" expanded="false" />
               </folding>
@@ -311,12 +311,12 @@
       <workItem from="1489692376423" duration="1235000" />
       <workItem from="1489741691362" duration="630000" />
       <workItem from="1489754908663" duration="6001000" />
-      <workItem from="1489777374103" duration="3013000" />
+      <workItem from="1489777374103" duration="3387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34730000" />
+    <option name="totallyTimeSpent" value="35104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -700,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/ES6/Classes/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="365">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc;n#User#0" expanded="false" />
           </folding>

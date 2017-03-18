@@ -40,3 +40,22 @@ class Guest {
 
 let guest = new Guest('Vasya', 'Pupa');
 console.log(guest.fullName);
+
+// Static features
+
+class Hero{
+    constructor(first,last){
+        this.first = first;
+        this.last = last;
+    }
+
+    static createUser(){
+        return new Hero('Guest', 'Site');
+    }
+}
+
+new Hero("first", 'last');
+
+console.log(Hero.createUser());
+
+
