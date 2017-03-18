@@ -45,6 +45,37 @@ let user3 = { name: "Вася", isAdmin: false };
 // clone = пустой объект + все свойства user
 let clone = Object.assign({}, user3)
 
-console.log(clone)
+console.log(clone);
 
+
+// Method of Object
+// It's a new syntax
+
+let r = {
+    name: 'Roma',
+    getSecondName() {
+        console.log(this.name)
+    }
+}
+
+r.getSecondName();
+
+
+// Super name
+// Allows us to inherit feature straight from the parent
+
+let Animal = {
+    walk(){
+        console.log('I walk');
+    }
+}
+
+let Rabbit = {
+    __proto__: Animal,
+    walk(){
+        super.walk(); // Straight from the parent object
+    }
+}
+
+Rabbit.walk();
 
