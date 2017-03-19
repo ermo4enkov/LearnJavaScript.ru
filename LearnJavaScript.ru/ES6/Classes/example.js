@@ -59,3 +59,22 @@ new Hero("first", 'last');
 console.log(Hero.createUser());
 
 
+// Extends
+
+class Beast {
+    constructor(name){
+        this.name = name;
+    }
+    walk(){
+        console.log(`${this.name} can walk`)
+    }
+}
+
+class Wolf extends Beast{
+    walk(){
+        super.walk();
+        console.log("...and jump");
+    }
+}
+
+new Wolf("grey").walk();
