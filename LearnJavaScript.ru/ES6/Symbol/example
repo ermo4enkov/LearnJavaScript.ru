@@ -46,3 +46,13 @@ let user2 = {
 }
 
 console.log(Object.keys(user2));
+
+
+// Check Symbol in obj
+
+let obj = {
+    iterator: 1,
+    [Symbol.iterator]: function() {}
+}
+
+console.log(Object.getOwnPropertySymbols(obj))
