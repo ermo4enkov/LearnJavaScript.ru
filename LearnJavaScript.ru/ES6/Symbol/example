@@ -1,0 +1,22 @@
+
+
+// Объявление
+
+let sym = Symbol();
+
+console.log(typeof sym);
+
+// Every Symbol is unique
+
+// Two Symbols may be with the same names, but they aren't equal
+
+
+// Global collection of Symbols
+
+let stroke = Symbol.for("name");
+
+console.log(Symbol.for("name") == stroke); // true
+
+// Also we have syntax for search in global Symbol collection
+
+console.log(Symbol.keyFor(stroke)) // name

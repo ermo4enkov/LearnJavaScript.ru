@@ -66,7 +66,7 @@ class Beast {
         this.name = name;
     }
     walk(){
-        console.log(`${this.name} can walk`)
+        console.log(`${this.name} can walk`);
     }
 }
 
@@ -78,3 +78,7 @@ class Wolf extends Beast{
 }
 
 new Wolf("grey").walk();
+
+// Конструктор constructor родителя наследуется автоматически. То есть, если в потомке не указан свой constructor,
+// то используется родительский. В примере выше Rabbit, таким образом, использует constructor от Animal.
+
