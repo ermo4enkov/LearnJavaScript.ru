@@ -20,3 +20,29 @@ console.log(Symbol.for("name") == stroke); // true
 // Also we have syntax for search in global Symbol collection
 
 console.log(Symbol.keyFor(stroke)) // name
+
+// Symbol.keyFor work only with global Symbol collection
+
+
+
+
+// Symbol usage
+
+let isAdmin = Symbol("isAdmin");
+
+let user = {
+    name: 'Vasya',
+    [isAdmin]: true
+}
+
+console.log(user[isAdmin]);
+
+// Type Symbol don't iterator
+
+let user2 = {
+    name: 'Vasya',
+    age: 23,
+    [Symbol.for("isAdmin")]: true
+}
+
+console.log(Object.keys(user2));
