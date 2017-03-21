@@ -14,3 +14,17 @@ map.set(true, 2);
 console.log(map.get("1"));
 console.log(map.get(1));
 console.log(map.get(true));
+
+// Feature .size keeps map length
+console.log(map.size);
+
+// Argument of new Map must be iterirable object
+
+// Методы для удаления записей:
+//
+// map.delete(key) удаляет запись с ключом key, возвращает true, если такая запись была, иначе false.
+// map.clear() – удаляет все записи, очищает map.
+//
+// Для проверки существования ключа:
+//
+// map.has(key) – возвращает true, если ключ есть, иначе false
