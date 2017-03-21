@@ -28,3 +28,31 @@ console.log(map.size);
 // Для проверки существования ключа:
 //
 // map.has(key) – возвращает true, если ключ есть, иначе false
+
+// Iteration in map
+
+
+// map.keys() – возвращает итерируемый объект для ключей,
+// map.values() – возвращает итерируемый объект для значений,
+// map.entries() – возвращает итерируемый объект для записей [ключ, значение], он используется по умолчанию в for..of
+
+let recipeMap = new Map([
+    ['огурцов',   '500 гр'],
+    ['помидоров', '350 гр'],
+    ['сметаны',   '50 гр']
+]);
+
+
+// Iteration for keys
+for (let key of recipeMap.keys()){
+    console.log(key)
+}
+
+// Iteration for values
+for (let val of recipeMap.values()){
+    console.log(val)
+}
+
+for(let entry of recipeMap) { // то же что и recipeMap.entries()
+    console.log(entry); // огурцов,500 гр , и т.д., массивы по 2 значения
+}
