@@ -50,3 +50,24 @@ dictionary = new Proxy(dictionary, {
 
 console.log(dictionary['Hello']);
 console.log(dictionary['Sooka']);
+
+Полный список
+
+// Полный список возможных функций-перехватчиков, которые может задавать handler:
+//
+//     getPrototypeOf – перехватывает обращение к методу getPrototypeOf.
+//     setPrototypeOf – перехватывает обращение к методу setPrototypeOf.
+//     isExtensible – перехватывает обращение к методу isExtensible.
+//     preventExtensions – перехватывает обращение к методу preventExtensions.
+//     getOwnPropertyDescriptor – перехватывает обращение к методу getOwnPropertyDescriptor.
+//     defineProperty – перехватывает обращение к методу defineProperty.
+//     has – перехватывает проверку существования свойства, которая используется в операторе in и в некоторых других методах встроенных объектов.
+//     get – перехватывает чтение свойства.
+//     set – перехватывает запись свойства.
+//     deleteProperty – перехватывает удаление свойства оператором delete.
+//     enumerate – срабатывает при вызове for..in или for..of, возвращает итератор для свойств объекта.
+//     ownKeys – перехватывает обращения к методу getOwnPropertyNames.
+//     apply – перехватывает вызовы target().
+//     construct – перехватывает вызовы new target().
+
+
