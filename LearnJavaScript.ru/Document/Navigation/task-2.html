@@ -74,6 +74,15 @@
     td3.style.backgroundColor="red";
     td4.style.backgroundColor="red";
 
+    // Нормальное решение
+
+    var table = document.body.children[0];
+
+    for (var i = 0; i < table.rows.length; i++ ){
+        td = table.rows[i].children[i];
+        td.style.backgroundColor="red";
+    }
+
 
     /* ваш код */
 </script>
