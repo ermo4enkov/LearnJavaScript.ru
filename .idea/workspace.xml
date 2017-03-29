@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7b6143-ad39-42d5-8de1-78f0cb6e52dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/FirstTask.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/example.js" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/example.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,14 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstTask.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/FirstTask.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" column="80" lean-forward="false" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LearnJavaScript.ru/.gitignore" />
         <option value="$PROJECT_DIR$/.git/info/exclude" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/ObjectdefineProperty/task.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/ObjectMethods/Static_and_fabric.js" />
@@ -109,6 +119,7 @@
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Elementsproperties/example.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Attributes&amp;Props/example.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/example.js" />
+        <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/FirstTask.html" />
       </list>
     </option>
   </component>
@@ -339,12 +350,12 @@
       <workItem from="1490364073176" duration="3866000" />
       <workItem from="1490538781068" duration="1778000" />
       <workItem from="1490626974251" duration="2972000" />
-      <workItem from="1490792248190" duration="303000" />
+      <workItem from="1490792248190" duration="1299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51392000" />
+    <option name="totallyTimeSpent" value="52388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -380,13 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Language/ObjectdefineProperty/ObjectdefineProperty.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -724,11 +728,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Add&amp;DeleteElems/FirstTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="80" lean-forward="false" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
