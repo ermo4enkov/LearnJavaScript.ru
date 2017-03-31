@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
+<body>
+<p>Найти размер прокрутки снизу</p>
+
+
+<p>Свойство elem.scrollTop содержит размер
+    прокрученной области при отсчете сверху.
+    А как подсчитать размер прокрутки снизу?</p>
+
+<p>Напишите соответствующее выражение для
+    произвольного элемента elem.</p>
+<p>Проверьте: если прокрутки нет вообще или
+    элемент полностью прокручен – оно должно
+    давать ноль.</p>
+
+
+<div class="over">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+    <p>6</p>
+</div>
+
+<div class="count">
+    scrollWidth:<div>0</div>
+    offsetWidth:<div>0</div>
+</div>
+
+<script>
+    var elem = document.querySelector(".over");
+    var summary = document.querySelector(".count");
+
+    summary.children[0].textContent = elem.scrollWidth;
+    summary.children[1].textContent = elem.offsetWidth - elem.clientWidth;
+</script>
+
+
+</body>
+</html>
