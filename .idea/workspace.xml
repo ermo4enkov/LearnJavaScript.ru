@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7b6143-ad39-42d5-8de1-78f0cb6e52dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Coordinats/example.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Size&amp;ScrollPage/example.js" afterPath="$PROJECT_DIR$/LearnJavaScript.ru/Document/Size&amp;ScrollPage/example.js" />
     </list>
@@ -96,21 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Size&amp;ScrollPage/example.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/multiAdd/task1.html">
+      <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Coordinats/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LearnJavaScript.ru/JSON/stringify.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/JSON/tasks.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/SetInterval_SetTimeout/example.js" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/SetInterval_SetTimeout/firstTask.js" />
@@ -199,6 +199,7 @@
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Sizes&amp;Scoll_Elements/firstTask.html" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Sizes&amp;Scoll_Elements/secondTask.html" />
         <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Size&amp;ScrollPage/example.js" />
+        <option value="$PROJECT_DIR$/LearnJavaScript.ru/Document/Coordinats/example.js" />
       </list>
     </option>
   </component>
@@ -304,7 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Size&amp;ScrollPage" />
+              <option name="myItemId" value="Coordinats" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,12 +436,12 @@
       <workItem from="1490792248190" duration="2359000" />
       <workItem from="1490878164600" duration="1646000" />
       <workItem from="1490971502333" duration="1866000" />
-      <workItem from="1491066928911" duration="681000" />
+      <workItem from="1491066928911" duration="1070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57641000" />
+    <option name="totallyTimeSpent" value="58030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -476,13 +477,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Language/ObjectMethods/Static_and_fabric.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Language/ObjectdefineProperty/task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -831,7 +825,15 @@
     <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Size&amp;ScrollPage/example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavaScript.ru/Document/Coordinats/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
