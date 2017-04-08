@@ -16,3 +16,23 @@
 //                      alert("click!")
 //                   }
 // </script>
+
+
+// 3. Доступ к элементу через this
+// this будет хранится в контексте произошедшего события
+// <button onclick="alert(this.innerHTML)">Нажми меня</button>
+
+
+// 4. addEventListener и removeEventListener
+
+// Назначение обработчика осуществляется вызовом addEventListener с тремя аргументами:
+// element.addEventListener(event, handler[, phase] )
+
+// event
+// Имя события, например click
+// handler
+// Ссылка на функцию, которую надо поставить обработчиком.
+//     phase
+// Необязательный аргумент, «фаза», на которой обработчик должен сработать. Этот аргумент редко нужен, мы его рассмотрим позже.
+
+// Удаление обработчика осуществляется вызовом removeEventListener
