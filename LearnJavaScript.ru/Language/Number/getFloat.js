@@ -6,15 +6,13 @@ alert( getDecimal(1.2) ); // 0.2
 alert( getDecimal(-1.2) ); // 0.2*/
 
 function getDecimal(num){
-  
-  var dot = String(num).indexOf(".");
-  var str = String(num);
-  str = str.slice(dot);
-  return parseFloat(str)
-  
+    var summ = String(num)
+    var str = summ;
+    var pos = summ.indexOf(".");
+    return (0+str.slice(pos))
 }
 
 
-console.log(getDecimal(-12.345))
-console.log(getDecimal(1.2))
-console.log(getDecimal(-1.2))
+alert(getDecimal(12.444));
+alert(getDecimal(1.2));
+alert(getDecimal(-1.2));
