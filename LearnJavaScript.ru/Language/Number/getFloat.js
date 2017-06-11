@@ -6,7 +6,7 @@ alert( getDecimal(1.2) ); // 0.2
 alert( getDecimal(-1.2) ); // 0.2*/
 
 function getDecimal(num){
-    var summ = String(num)
+    var summ = String(num);
     var str = summ;
     var pos = summ.indexOf(".");
     return (0+str.slice(pos))

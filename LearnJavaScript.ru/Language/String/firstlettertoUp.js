@@ -8,7 +8,7 @@ P.S. В JavaScript нет встроенного метода для этого.
 function ucFirst(str){
   
   if(!str) return str;
-  return str = str.charAt(0).toUpperCase() + str.slice(1);
+  return str = str[0].toUpperCase() + str.slice(1)
   
 }
 
