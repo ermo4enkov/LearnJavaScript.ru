@@ -21,3 +21,15 @@ function factorial(n){
 
 console.log(factorial(1))
 console.log(factorial(5))
+
+
+function fact(n)
+{
+    while(n != 1){
+      return n * fact(n-1);
+    }
+  
+  return n;
+}
+
+console.log(fact(5))
