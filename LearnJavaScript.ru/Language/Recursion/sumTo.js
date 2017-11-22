@@ -36,4 +36,13 @@ function sumTo2(n){
   return sum
 }
 
+function sumTo(n)
+{
+  while (n!= 0) 
+  {
+     return n + sumTo(n-1)
+  }
+  return n;
+}
+
 console.log(sumTo2(10))
