@@ -15,9 +15,7 @@ n! = n * (n - 1) * (n - 2) * ...*1
 alert( factorial(5) ); // 120
 Подсказка: обратите внимание, что n! можно записать как n * (n-1)!. Например: 3! = 3*2! = 3*2*1! = 6*/
 
-function factorial(n){
-  return (n != 1)? n * factorial(n - 1) : n
-}
+const factorial = (n) => (n === 1) ? n:  n * factorial(n - 1);
 
 console.log(factorial(1))
 console.log(factorial(5))
