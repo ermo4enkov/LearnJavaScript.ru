@@ -30,3 +30,22 @@ function sumArgs(){
   
 console.log(sumArgs(2,3,3,4))
   
+// Напишите функцию applyAll(func, arg1, arg2...), которая получает функцию func и произвольное количество аргументов.
+
+// Она должна вызвать func(arg1, arg2...), то есть передать в func все аргументы, начиная со второго, и возвратить результат.
+
+function sum() { // суммирует аргументы: sum(1,2,3) = 6
+    return [].reduce.call(arguments, function(a, b) {
+      return a + b;
+    });
+  }
+  
+  
+  function applyAll(fn){
+    const args = [].slice.call(arguments, 1)
+    return fn.apply(this, args);
+  }
+  
+  
+  
+  console.log(applyAll(sum,2,3,4))
